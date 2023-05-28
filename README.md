@@ -1,29 +1,25 @@
 ![App Brewery Banner](Documentation/AppBreweryBanner.png)
 
-# Auto Layout 
+# Calculator Layout Boss Challenge
 
-## Our Goal
+No knowledge is your own until you put it into practice. Using what you've learnt about auto layout, stack views and setting constraints, create the following UI. 
 
-At the moment, our app only looks good on the canvas dimension that we’ve selected. If you run the app on screens with different aspect ratios or try to turn it to landscape, the designs will look broken. 
+## Portrait
 
-Auto Layout allows us to set rules as to how we want our views to be displayed. Because mobile screens have different resolutions and sizes, we need these rules to tell the iPhone/iPad how it should layout all the elements in the storyboard onto the display. These rules allow our UI elements to be resized and positioned so that no matter which screen they are displayed on, they always look as the designer intended.
+![Portrait](Documentation/Portrait.png)
 
+## Landscape
+![Landscape](Documentation/Landscape.png)
 
-## What you will create
+This is a difficult challenge. You pass the challenge if you can create the vertical and horizontal stacks required for the layout. Once you've done that, you can also get extra credit if you figure out how to layout the small details.
 
-Although Dicee is already pretty dicey, we get into problems when we try to rotate the screen to landscape or if we have a screen size that is not the same as the canvas. In this module, we’ll learn how to fix this and make our apps look exactly the way we want.
+Bronze Medal: If you can figure out how to have the layout be constrained to the Safe Areas in Portrait and Landscape. (Notice the distance to the edges is different between landscape and portrait.
 
-## What you will learn
+Silver Medal: If you can figure out how to indent the Label with the 0 so that there is 20px distance from the right edge of the screen.
 
-* How to add constraints and understanding how Auto Layout works.
-* How to Pin and Align elements.
-* How to create containers to configure advanced layouts.
-* How to debug auto layout errors.
-* Understanding what Xcode needs in order to correctly layout a design.
-* How to use Stack Views to create complex interfaces.
+Gold Medal: If you can figure out how to make the 0 button take up twice as much width as the "." and "=" buttons.
 
-
-
+If you get stuck, check out the solution video in the next lesson.
 
 >This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
